@@ -1,5 +1,52 @@
-.second{
-    display: flex;
-    justify-content: space-between;
+header{
+    height: 100px;
 }
+
+header a{
+    text-decoration: none;
+    color: #969696;
     
+}
+    .section__one{
+        display: flex;
+        justify-content:  space-around;
+        font-size: 10px;
+        font-family: 'PT Sans', sans-serif;
+        height: 35px;
+        background-color: black;
+        align-items: center;
+        color: #969696;
+}
+    .section__text{
+        padding: 5px;
+}
+    .section__two{
+        display: flex;
+        justify-content:  space-around;
+        height: 65px;
+        align-items: center;
+        background:#0F0F0F;
+
+    }
+    .section__porten{
+        font-family: Post No Bills Jaffna;
+        font-size: 30px;
+        color: white;
+}
+    .section__functions{
+        display: flex;
+        font-size: 12px;
+        font-family: 'PT Sans', sans-serif;
+        padding: 15px;
+}
+    .section__two-text{
+        padding: 15px;
+        color: white;
+    }
+    .section__two-text a{
+        color: white;
+} 
+.piter img{
+   max-width: 1424px;
+   height: 610px;
+}

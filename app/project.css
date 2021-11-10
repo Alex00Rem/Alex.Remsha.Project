@@ -266,4 +266,28 @@ header a{
                 .five__card p{
                     font-size: 12px;
 }
+    .section__six{
+        height: 325px;
+        background: #0F0F0F;
+        color: white;
+        font-size: 22px;
+        font-family:'Playfair Display', serif;
+}
+        .section__six-mybrend{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height:162px;
+}
+        .section__six-brend{
+            display: flex;
+            justify-content: center;
+            height:163px;
+}
+            .section__six-brend img{
+                width: 250px;
+                padding: 0px 10px 0px 0px;
+
+}
 

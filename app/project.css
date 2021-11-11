@@ -165,11 +165,17 @@ header a{
         display: flex;
         justify-content: center;
         align-items: center;
+        text-decoration: none;
+        color: white;
         border: 1px solid;
         height: 35px;
         width: 90px;
         font-size: 14px;
         font-family: 'Playfair Display', serif;
+}
+    .colection__catolog-buttem a{
+        text-decoration: none;
+        color: white;    
 }
     .colection__catolog-line img{
         width: 90px;

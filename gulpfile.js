@@ -66,18 +66,18 @@ function styles() {
 }
 
 function images() {
-	return src(['app/images/src/**/*'])
-		.pipe(newer('app/images/dist'))
+	return src(['app/img/src/**/*'])
+		.pipe(newer('app/img/dist'))
 		.pipe(imagemin())
-		.pipe(dest('app/images/dist'))
+		.pipe(dest('app/img/dist'))
 		.pipe(browserSync.stream())
 }
 
 function buildcopy() {
 	return src([
 		'{app/js,app/css}/*.min.*',
-		'app/images/**/*.*',
-		'!app/images/src/**/*',
+		'app/img/**/*.*',
+		'!app/img/src/**/*',
 		'app/fonts/**/*'
 	], { base: 'app/' })
 	.pipe(dest('dist'))

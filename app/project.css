@@ -324,7 +324,7 @@ header a {
 }
 
 .section__six {
-    height: 325px;
+    /* height: 325px; */
     background: #0F0F0F;
     color: white;
     font-size: 22px;
@@ -336,13 +336,18 @@ header a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 162px;
+    width:100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* height: 162px; */
 }
 
 .section__six-brend {
     display: flex;
     justify-content: center;
-    height: 163px;
+    width: 100%;
+    padding-bottom: 20px;
+    /* height: 163px; */
 }
 
 .section__six-brend img {
